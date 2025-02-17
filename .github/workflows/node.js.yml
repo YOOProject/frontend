@@ -30,7 +30,7 @@ jobs:
           tar -czvf deploy-package.tar.gz ./dist
 
       - name: Upload Package as Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@latest
         with:
           name: deploy-package
           path: deploy-package.tar.gz
