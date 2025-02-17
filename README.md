@@ -40,4 +40,5 @@ YOO/
 ``` bash
   git push command
   git  pull
- git fetch
+  git fetch
+  git checkout -b newbranch --> create new branch
