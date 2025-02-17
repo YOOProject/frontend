@@ -1,4 +1,4 @@
-name: Node.js CI
+name: Yoo Project
 
 on:
   push:
@@ -26,12 +26,12 @@ jobs:
       - name: Build Project
         run: npm run build
 
-      # Upload the build artifacts (e.g., dist folder or build package)
-      - name: Upload Build Artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          name: build-package
-          path: ./dist/  # Assuming the build files are in the 'dist' directory. Modify this path if needed.
+      # # Upload the build artifacts (e.g., dist folder or build package)
+      # - name: Upload Build Artifacts
+      #   uses: actions/upload-artifact@v3
+      #   with:
+      #     name: build-package
+      #     path: ./dist/  # Assuming the build files are in the 'dist' directory. Modify this path if needed.
 
       # If you need to publish the package to npm or GitHub Packages, uncomment this section
       # - name: Publish to npm registry
