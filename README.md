@@ -38,4 +38,6 @@ YOO/
 │── README.md                 # Project overview
 # frontend
 ``` bash
-  git push command 
+  git push command
+  git  pull
+ git fetch
