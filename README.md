@@ -35,10 +35,5 @@ YOO/
 │── docs/                     # Documentation
 │── tests/                    # Testing setup
 │── package.json              # Dependencies
-│── README.md                 # Project overview
-# frontend
-``` bash
-  git push command
-  git  pull
-  git fetch
-  git checkout -b newbranch --> create new branch
+│── README.md                 # Project ovl
+  gngfhghgfhgfwqa11
