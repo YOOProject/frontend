@@ -21,7 +21,9 @@ jobs:
           cache: 'npm'
 
       - name: Install Dependencies
-        run: npm install --verbose
+        run: |
+          npm install rollup@latest
+          npm install --verbose
 
       - name: Build Project
         run: npm run build
